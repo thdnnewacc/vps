@@ -39,6 +39,7 @@
           --shm-size 1g -d \
           --cap-add=SYS_ADMIN \
           -p 10000:10000 \
+          -p 25565:25565 \
           -e VNC_PASSWD=12345678 \
           -e PORT=10000 \
           -e AUDIO_PORT=1699 \
